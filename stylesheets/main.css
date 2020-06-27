@@ -1,0 +1,100 @@
+div.header{
+      clear: both;
+      display: inline;
+      font-family: Ariel, Helvetica, sans-serif;
+      width: 100%;
+    }
+#Landmarks {
+    float: left;
+
+    background-color: black;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    width: 90%;
+    text-indent: 20px;
+    font-size: 2em;
+    }
+#Login {
+    float: right;
+    text-align: center;
+    background-color: MediumSeaGreen;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    width: 10%;
+    }
+
+#Links{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background: darkblue;
+  height: 115px;
+  width: 100%;
+
+}
+#Links li  {
+  float: left;
+  width: 33.33%;
+}
+
+#Links li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 21px;
+}
+.museum{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.dam{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  font-size: large;
+  font-family: Ariel, Helvetica, sans-serif;
+  font-size: 200%;
+}
+
+.block{
+  background-color: black;
+}
+
+.text{
+  background-color: black;
+  color: white;
+  line-height: 1.2em;
+  margin-bottom: 1.1em;
+}
+
+.table{
+  font-family: Ariel, Helvetica, sans-serif;
+  font-size: 200%;
+  text-align: left;
+  object-fit: cover;
+}
+
+#phototitles{
+  font-family: Ariel, Helvetica, sans-serif;
+  font-size: 200%;
+}
+
+#phototitles li{
+  float: left;
+  width: 33.33%;
+  display: inline;
+}
+
+#photos{
+  width: 20px;
+  height: 20px
+}
+
+#photos li{
+  float: left;
+  display: inline-block;
+}
